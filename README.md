@@ -1,1 +1,1 @@
-# chatgpt-product-reqs
+generative-product-reqs
