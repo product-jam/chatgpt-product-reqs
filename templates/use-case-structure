@@ -1,0 +1,34 @@
+# Use Case Structure
+This template is used to create a use case structure for a zero-to-one product.
+
+## Table of Contents
+- [Use Case Structure](#use-case-structure)
+  - [Table of Contents](#table-of-contents)
+    - [**User Management**](#user-management)
+    - [**Core User Loop**](#core-user-loop)
+    - [**Account Management**](#account-management)
+
+
+### **User Management**
+Use cases related to user signup, login, and user-level account management.
+* CRUD - Create, Read, Update, Delete
+* single-player - A user is the only user of the system
+* multi-player - A user is one of many users of the system
+
+### **Core User Loop**
+Use cases related to the [core user loop](https://www.reforge.com/blog/growth-loops) of the product.
+* Happy Path - CRUD
+    * user-initiated
+        * notification-layer
+    * system-initiated
+        * notification layer
+* Alt path - CRUD
+* Error path - CRUD
+
+### **Account Management**
+Use cases related to account management.
+* CRUD
+    * billing
+    * account settings
+    * notification settings
+    * user settings
